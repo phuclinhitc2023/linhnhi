@@ -1,0 +1,56 @@
+﻿@model IEnumerable<OnThiBaBang.Models.KhachHang>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@{ Html.BeginForm();}
+@Html.Label("Tìm kiếm")
+@*@Html.DropDownList("tenkh","Tất cả")*@
+@Html.TextBox("tenkh","")
+@{ Html.EndForm();}
+<table class="table">
+    <tr>
+        <th>
+            Mã khách hàng
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HoTen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DienThoai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HoTen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DienThoai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.MaKH }) |
+            @Html.ActionLink("Details", "Details", new { id = item.MaKH }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.MaKH })
+        </td>
+    </tr>
+}
+
+</table>

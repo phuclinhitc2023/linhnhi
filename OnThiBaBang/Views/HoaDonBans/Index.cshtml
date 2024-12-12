@@ -1,0 +1,71 @@
+﻿@model IEnumerable<OnThiBaBang.Models.HoaDonBan>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@{ Html.BeginForm();}
+@Html.Label("Tìm kiếm")
+@*@Html.DropDownList("tenkh","Tất cả")*@
+@Html.TextBox("tenkh", "")
+@{ Html.EndForm();}
+<table class="table">
+    <tr>
+        <th>
+            Mã hóa đơn
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sach.TenSach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KhachHang.HoTen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayBan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SoLuong)
+        </th>
+        <th>
+            Thành tiền
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaHD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sach.TenSach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KhachHang.HoTen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayBan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoLuong)
+            </td>
+            <td>
+                @(item.SoLuong * item.Sach.DonGia)
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MaHD }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MaHD }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MaHD })
+            </td>
+        </tr>
+    }
+
+</table>

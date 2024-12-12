@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OnThiNet\\OnThiBaBang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F74A58-749E-49A1-864B-6ACDFA3252D9}|OnThiBaBang\\OnThiBaBang.csproj|d:\\onthinet\\onthibabang\\onthibabang\\views\\hoadonbans\\cau9.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3F74A58-749E-49A1-864B-6ACDFA3252D9}|OnThiBaBang\\OnThiBaBang.csproj|solutionrelative:onthibabang\\views\\hoadonbans\\cau9.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F74A58-749E-49A1-864B-6ACDFA3252D9}|OnThiBaBang\\OnThiBaBang.csproj|d:\\onthinet\\onthibabang\\onthibabang\\controllers\\hoadonbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F74A58-749E-49A1-864B-6ACDFA3252D9}|OnThiBaBang\\OnThiBaBang.csproj|solutionrelative:onthibabang\\controllers\\hoadonbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F74A58-749E-49A1-864B-6ACDFA3252D9}|OnThiBaBang\\OnThiBaBang.csproj|d:\\onthinet\\onthibabang\\onthibabang\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3F74A58-749E-49A1-864B-6ACDFA3252D9}|OnThiBaBang\\OnThiBaBang.csproj|solutionrelative:onthibabang\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cau9.cshtml",
+              "DocumentMoniker": "D:\\OnThiNet\\OnThiBaBang\\OnThiBaBang\\Views\\HoaDonBans\\Cau9.cshtml",
+              "RelativeDocumentMoniker": "OnThiBaBang\\Views\\HoaDonBans\\Cau9.cshtml",
+              "ToolTip": "D:\\OnThiNet\\OnThiBaBang\\OnThiBaBang\\Views\\HoaDonBans\\Cau9.cshtml",
+              "RelativeToolTip": "OnThiBaBang\\Views\\HoaDonBans\\Cau9.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T20:18:41.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\OnThiNet\\OnThiBaBang\\OnThiBaBang\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OnThiBaBang\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\OnThiNet\\OnThiBaBang\\OnThiBaBang\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OnThiBaBang\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T20:09:33.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HoaDonBansController.cs",
+              "DocumentMoniker": "D:\\OnThiNet\\OnThiBaBang\\OnThiBaBang\\Controllers\\HoaDonBansController.cs",
+              "RelativeDocumentMoniker": "OnThiBaBang\\Controllers\\HoaDonBansController.cs",
+              "ToolTip": "D:\\OnThiNet\\OnThiBaBang\\OnThiBaBang\\Controllers\\HoaDonBansController.cs",
+              "RelativeToolTip": "OnThiBaBang\\Controllers\\HoaDonBansController.cs",
+              "ViewState": "AgIAAB8AAAAAzczMzMwtwCQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:47:35.976Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
